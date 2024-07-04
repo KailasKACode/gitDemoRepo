@@ -15,7 +15,7 @@ import org.openqa.selenium.support.ui.Select;
 public class FIndDuplicateusingSet {
 
 	public static void main(String[] args) {
-		Integer[] a = { 1, 2, 3, 44, 44, 3 };
+		Integer[] a = { 1, 2, 3, 44, 44, 3,45,89};
 		ArrayList<Integer> numbers = new ArrayList<Integer>(Arrays.asList(a));
 		Set<Integer> linkedHs = new HashSet<Integer>(numbers);
 		System.out.println(linkedHs);
